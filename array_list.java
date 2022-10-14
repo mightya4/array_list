@@ -9,5 +9,10 @@ public class array_list {
         books.add("The Hunger Games");
         books.add("Water for Elephants");
         books.add("Lord of the Flies");
+
+        Collections.sort(books);
+        for (String i : books) {
+            System.out.println(i);
+        }
     }
 }
