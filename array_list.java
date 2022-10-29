@@ -14,5 +14,12 @@ public class array_list {
         for (String i : books) {
             System.out.println(i);
         }
+
+        System.out.println("--------------------");
+        
+        for(int i = books.size() -1 ; i >= 0; i-- ) {
+            System.out.println(books.get(i));
+        }
+
     }
 }
